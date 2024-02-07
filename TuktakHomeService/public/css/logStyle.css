@@ -1,0 +1,125 @@
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color */
+body {
+    background-color: #14213D;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container for the login form */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #14213D;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #15274d;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #14213D;
+    font-weight: bold;
+}
+
+/* Style the login form */
+.login-form h1 {
+    color: #14213D;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form form label {
+    display: block;
+    color: #14213D;
+    margin-bottom: 5px;
+}
+
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #14213D;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form input[type="submit"]{
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button{
+    border-width: unset;
+    border-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #151616;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Style the footer */
+footer {
+ 
+    text-align: center;
+    padding: 10px 0;
+    color: #14213D;
+    bottom: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Hide horizontal scrollbar */
+body {
+    overflow-x: hidden;
+}

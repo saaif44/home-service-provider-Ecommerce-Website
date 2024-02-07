@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif; /*the whole page is under Arial type font*/ 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /*#f4f4f4 these are called hexa type of color*/
+}
+
+header {              
+    background-color: #333; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {                           /*navigation bar style target*/
+    background-color: #d3d3d3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+a{      /*left the padding of each link of nav bar*/
+    font: bold 16px;
+    color: #3279e8;
+    background-color: #e7e7e7;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+ }
+
+section {
+    padding: 20px; /*space left(space chere disi) top-bottom one section to another seciton */
+}
+
+
+footer {
+    background-color: #333; /* for example this is the background color of footer*/
+    color: #fff; /*this is the color of font in footer*/
+    padding: 10px;  /*space that i want to leave top-bottom-left-right but here mainly focused on top and bottom*/
+    text-align: center; /*we aligned to center text*/
+    position: fixed; /*if we dont call this parameter then the position of footer will be begin after the section part ends and the section part is in php code <section></section> you can find it there*/
+    bottom: 0; /*the position we want the footer to be just at the bottom of the page*/
+    width: 100%; /*and the width needs to be full page of the webpage*/
+}

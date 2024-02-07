@@ -1,0 +1,59 @@
+
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #14213D;
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.balance {
+    background-color: #FCA311;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-btnlink{
+    background-color: #5e7afa;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+
+.order-list {
+    padding: 10px 200px;
+}
+
+.order-box {
+    background-color: #E5E5E5;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.order-details {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
